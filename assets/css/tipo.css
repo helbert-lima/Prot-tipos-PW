@@ -79,20 +79,7 @@ header{
     zoom: 0;
 }
 
-div{
-    margin: 100px 100px 0px 400px;
-    content: '';
-    position: absolute;
-    width: 40vw;
-    height: 40vh;
-    z-index: 2;
-    background-color: var(--destak-color);
-    background-image: url(../image/Plano_de_fundo.jpg);
-    background-size: 100%;
-    zoom: 0;
-}
-
-/* span#Ft{
+span#Ft{
     margin: 100px 100px 0px 300px;
     content: '';
     position: relative;
@@ -103,4 +90,4 @@ div{
     background-image: url(../image/perfil_robo.jpg);
     background-size: 100%;
     zoom: 0;
-} */
+}

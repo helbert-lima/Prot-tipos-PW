@@ -37,10 +37,11 @@ h2{
 }
 
 a{
+    width: 110px;
     display: flex;
     gap: 1rem;
     color: var(--white);
-    margin: 0 8.4rem;
+    margin: 0 350px;
     font-family: var(--font-family);
     background-color: var(--sub-color);
     padding: .25rem 1rem;
@@ -218,15 +219,27 @@ li,
     overflow: hidden;
 }
 
+#L2{
+    margin-top: 1102px;
+    /* margin-top: 495px; */
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-image: url(../image/PlanoCentral.png);
+    background-size: cover;
+
+    overflow: hidden;
+}
+
 div{
     display: flex;
     flex-direction: column;
 }
 
-#secao-ges{
-    margin-top: 1102px;
+#devs{
+    margin-top: 1708px;
     width: 100vw;
-    height: 400px;
+    height: 50px;
     place-items: center;
     position: absolute;
     background-image: url(../image/PlanoCentral.png);
@@ -240,7 +253,7 @@ div{
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     max-width: 500px;
-    margin: 0 auto;
+    margin-top: 2000px;
     font-size: 1.5rem;
 }
 
@@ -262,7 +275,7 @@ ul{
     margin: 16px;
     margin-left: 270px;
     width: 100vw;
-    height: 588px;
+    height: 275px;
     display: grid;
     grid-template-columns: repeat(3, .1fr);
     
